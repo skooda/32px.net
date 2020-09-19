@@ -1,0 +1,17 @@
+body {
+    background: #000;
+    image-rendering: pixelated;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PixelMini';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4px;
+}
+
+.px32 {
+    zoom: 10;
+    overflow: scroll;
+}
