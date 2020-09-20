@@ -1,4 +1,7 @@
-build: www/fonts www/styles www/$(shell ls src/pages)
+build: www/fonts www/styles pages
+
+.PHONY: pages
+pages: $(shell ls src/pages/|sed 's/[^ ]* */www\/&/g')
 
 www/fonts: www
 	cp -r src/fonts www/fonts
