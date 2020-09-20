@@ -1,10 +1,18 @@
 @font-face {
-    font-family: 'PixelMini';
-    src: url('PixelMini.eot');
-    src: url('PixelMini.eot?#iefix') format('embedded-opentype'),
-        url('PixelMini.woff2') format('woff2'),
-        url('PixelMini.woff') format('woff'),
-        url('PixelMini.svg#PixelMini') format('svg');
+    font-family: 'MiniPixel';
+    src: url('MiniPixel.woff2') format('woff2'),
+        url('MiniPixel.woff') format('woff'),
+        url('MiniPixel.svg#MiniPixel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MiniPixel';
+    src: url('MiniPixel.woff2') format('woff2'),
+        url('MiniPixel.woff') format('woff'),
+        url('MiniPixel.svg#MiniPixel') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
