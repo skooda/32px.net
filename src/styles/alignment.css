@@ -1,2 +1,6 @@
 .ta-l { text-align: left; }
 .ta-r { text-align: right; }
+
+.fl-l {display: block; float: left;}
+.fl-r {display: block; float: right;}
+.clr {clear: both}
