@@ -15,4 +15,15 @@ body {
     zoom: 10;
     overflow-y: scroll;
     overflow-x: hidden;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.px32-footer:hover {
+    position: absolute;
+    bottom: 0;
+    width: 31px;
+    padding-right: 1px;
 }
